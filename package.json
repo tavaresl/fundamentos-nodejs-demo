@@ -1,0 +1,18 @@
+{
+  "name": "fundamentos_nodejs",
+  "version": "1.0.0",
+  "description": "API de Livros usando Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}
